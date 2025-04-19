@@ -12,7 +12,7 @@ RUN apt-get update -y && apt-get upgrade -y \
 
 COPY . .
 
-EXPOSE 6000
+EXPOSE 4000
 
 CMD ["nginx", "-g", "daemon off;"]
 
